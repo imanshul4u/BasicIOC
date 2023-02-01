@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<!-- configuration of the beans -->
+ <bean id="num1" class="mypack.Rational">
+ <constructor-arg value="2"/>
+ <constructor-arg value="3"/>
+ </bean>
+ <bean id="num2" class="mypack.Rational">
+ <constructor-arg value="4"/>
+ <constructor-arg value="5"/>
+ </bean>
+</beans>
